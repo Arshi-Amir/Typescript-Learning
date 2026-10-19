@@ -1,0 +1,15 @@
+Difference between TS and JS
+JS is dynamically typed (datatype can be changed) language with no type safety
+it will show error on runtime
+
+TS is statically typed (datatype will not be changed) language with type safety
+it will show errors at compilation time 
+
+Comments shortcut Key:
+1- single line : ctrl + /
+2- multiLine : alt + shift + A 
+3- terminal - ctrl + `
+
+Tips :
+1- whenever create new file or folder start with uppercase
+2- All other should be in lower case.

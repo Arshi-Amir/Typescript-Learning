@@ -1,0 +1,61 @@
+================================================
+             JAVASCRIPT / TYPESCRIPT LOOPS
+================================================
+
+for...of
+---------
+Purpose: Get VALUES
+
+Array   → values
+String  → characters
+Object  → ❌ not directly
+Number  → ❌ single number
+
+Example:
+for (const value of array) {
+    console.log(value);
+}
+
+
+for...in
+---------
+Purpose: Get KEYS / INDEXES
+
+Array   → indexes
+String  → indexes (possible, but not preferred)
+Object  → keys
+Number  → ❌
+
+Example:
+for (const key in object) {
+    console.log(key);
+}
+
+
+forEach()
+---------
+Purpose: Process ARRAY elements
+
+Array   → ✅
+String  → ❌
+Object  → ❌ directly
+Number  → ❌ single number
+
+Gives:
+value + index
+
+Example:
+array.forEach((value, index) => {
+    console.log(value, index);
+});
+
+
+================================================
+MEMORY TRICK
+================================================
+
+for...OF  → OF the VALUES
+for...IN  → IN the KEYS/INDEXES
+forEach   → EACH array element
+
+================================================
